@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Game Producer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <div id="ui-layer">
+        <!-- Main Menu -->
+        <div id="main-menu" class="menu-box">
+            <h1>GAME PRODUCER PORTFOLIO</h1>
+            <div class="button-group">
+                <button id="btn-play">PLAY</button>
+                <button id="btn-options">OPTIONS</button>
+                <button id="btn-about">ABOUT</button>
+            </div>
+        </div>
+
+        <div id="options-modal" class="menu-box hidden">
+            <h2>OPTIONS</h2>
+            <div class="options-content">
+                <label><input type="checkbox" checked> BGM</label><br><br>
+                <label><input type="checkbox" checked> SFX</label>
+            </div>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <div id="about-modal" class="menu-box hidden">
+            <h2>ABOUT</h2>
+            <p>Welcome to my interactive portfolio!</p>
+            <p>I am a Game Producer. Explore my projects and experience in this 2.5D isometric world.</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 1: GAME PROJECTS -->
+        <div id="modal-game" class="menu-box hidden node-modal">
+            <h2>GAME PROJECTS</h2>
+            <p>Recent works include <strong>Avokapo</strong> (developed at 996 Rebel) and B2B art & production projects at Gameloft.</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 2: HOBBIES & PERSONAL -->
+        <div id="modal-hobbies" class="menu-box hidden node-modal">
+            <h2>HOBBIES & PERSONAL</h2>
+            <p>Songwriting, singing, exploring indie game design loops, and interior styling!</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 3: EDUCATION & CERTIFICATES -->
+        <div id="modal-edu" class="menu-box hidden node-modal">
+            <h2>EDUCATION & CERTIFICATES</h2>
+            <p>B.A. in Logistics & Supply Chain Management.</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 4: WORKING EXPERIENCE -->
+        <div id="modal-work" class="menu-box hidden node-modal">
+            <h2>WORKING EXPERIENCE</h2>
+            <p>Founder & Operations Manager (COO) at <strong>Uzcreate</strong>, specializing in stylized UI/UX, 2D Spine animation, and project pipelines.</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 5: MY LOVELY PUPPY -->
+        <div id="modal-puppy" class="menu-box hidden node-modal">
+            <h2>MY LOVELY PUPPY</h2>
+            <p>Meet Bông, my 4-year-old small poodle!</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- NODE 6: INSPIRATIONS / POSTER -->
+        <div id="modal-poster" class="menu-box hidden node-modal">
+            <h2>INSPIRATIONS</h2>
+            <p>Inspired by PlayStation classics, creative storytelling, and game mechanics.</p>
+            <button class="btn-close">CLOSE <span class="key-hint">[E / ESC]</span></button>
+        </div>
+
+        <!-- Tutorial Popup -->
+        <div id="tutorial-popup" class="hidden">
+            <p>Controls:</p>
+            <p>[W][A][S][D] or Touch & Drag to Move</p>
+            <p>[E] / [Space] or Tap [E/TAP] to Interact</p>
+        </div>
+
+        <!-- Dynamic Translucent Virtual Joystick -->
+        <div id="joystick-container">
+            <div id="joystick-thumb"></div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
