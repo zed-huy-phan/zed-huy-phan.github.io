@@ -447,6 +447,10 @@ function setupNodeModals() {
             <em>Seedworld Studios, survival game developer (Unreal Engine 5) | Remote</em></p>
             <p>• Set up workflows between Design, 3D Art and Tech Art to speed up UE5 integration in a 3-month engagement.</p>
             <p>• Drove production sprints to a public playtest build on Epic Games Store before the studio closed due to funding.</p>
+            <div class="modal-gallery">
+                <img src="assets/document/seedworld_1.png" alt="Seedworld Showcase 1">
+                <img src="assets/document/seedworld_2.gif" alt="Seedworld Showcase 2">
+            </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>LEAD PROJECT MANAGER | PRODUCER</strong> | 05/2022 – 11/2025<br>
             <em>Sky Mavis, developer of Axie Infinity | Hybrid</em></p>
