@@ -520,7 +520,7 @@ function setupNodeModals() {
             </div>
             <div class="node-card" style="display: block;">
                 <div class="node-card-text" style="margin-bottom: 8px;">
-                    <p style="margin: 0 !important;">• <strong>AAA ART PRODUCTION</strong><br><em>ART PRODUCER ( Character Model, Skins, Props Production & Unreal Engine Integration)</em></p>
+                    <p style="margin: 0 !important;">• <strong>ADDITIONAL AAA CO-DEV TITLES</strong><br><em>(Sparx, art pipeline delivery)</em></p>
                 </div>
                 <div class="game-grid-4col">
                     <div class="game-item">
