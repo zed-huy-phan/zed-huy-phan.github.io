@@ -604,7 +604,7 @@ function setupNodeModals() {
     forceUpdateModalContent('about-modal', `
         <h2>PROFESSIONAL SUMMARY</h2>
         <div class="modal-scroll-body">
-            <p>Hello, I am Zed, welcome to my mancave!</p>
+            <p>Hello, I am Zed, welcome to my personal portfolio!</p>
             <p>I am a Senior Producer with 7+ years in game production and 3+ shipped PC, console and mobile titles, including the full lifecycle from pre-production through 1.0 launch and live-ops. Specializes in co-development partnerships: vetting studios, negotiating scope and payment terms with Legal/BizDev, and reviewing external milestones. Led and mentored associate producers and aligned cross-discipline leads across distributed studios.</p>
             <p>Feel free to go around and interact with the items in the room to learn more about me :)</p>
             <p>Hope you enjoy it!</p>
