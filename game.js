@@ -545,6 +545,20 @@ function setupNodeModals() {
                     </div>
                 </div>
             </div>
+            <div class="node-card">
+                <img src="assets/document/seedworld_1.png" alt="Unreleased Project: Seedworld" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>UNRELEASED PROJECT: SEEDWORLD (2025)</strong> | PC, UE5 survival game<br>
+                    <em>Producer, UE5 workflow setup and playtest build | Studio closed due to funding before release.</em></p>
+                </div>
+            </div>
+            <div class="node-card">
+                <img src="assets/document/greenbird_0b.png" alt="Unannounced Indie Project" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>UNANNOUNCED INDIE PROJECT (2026 - Present)</strong> | Roguelite RPG<br>
+                    <em>Producer and systems designer, pre-production</em></p>
+                </div>
+            </div>
         </div>
         <button class="btn-close">Close / [ESC]</button>
     `);
@@ -591,7 +605,7 @@ function setupNodeModals() {
         <h2>PROFESSIONAL SUMMARY</h2>
         <div class="modal-scroll-body">
             <p>Hello, I am Zed, welcome to my mancave!</p>
-            <p>I am a Senior Producer with 7+ years in game production and 5 shipped PC, console and mobile titles, including the full lifecycle from pre-production through 1.0 launch and live-ops. Specializes in co-development partnerships: vetting studios, negotiating scope and payment terms with Legal/BizDev, and reviewing external milestones. Led and mentored associate producers and aligned cross-discipline leads across distributed studios.</p>
+            <p>I am a Senior Producer with 7+ years in game production and 3+ shipped PC, console and mobile titles, including the full lifecycle from pre-production through 1.0 launch and live-ops. Specializes in co-development partnerships: vetting studios, negotiating scope and payment terms with Legal/BizDev, and reviewing external milestones. Led and mentored associate producers and aligned cross-discipline leads across distributed studios.</p>
             <p>Feel free to go around and interact with the items in the room to learn more about me :)</p>
             <p>Hope you enjoy it!</p>
         </div>
