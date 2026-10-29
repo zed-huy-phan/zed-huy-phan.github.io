@@ -464,7 +464,7 @@ function setupNodeModals() {
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER</strong> | 01/2019 – 05/2022<br>
             <em>Sparx - a Virtuos Studio, AAA co-development studio | Hybrid</em></p>
-            <p>• Managed external delivery of the character art pipeline for AAA publisher clients, including The Quarry on PS4/PS5, Xbox and PC.</p>
+            <p>• Managed external delivery of the art pipeline for AAA clients, including The Quarry (Supermassive Games), CORE (Manticore Games), XCOM Legends (Chimera Games), Clash of Beasts (Ubisoft) and Century: Age of Ashes (Playwing).</p>
             <p>• Set acceptance criteria and quality checks with clients; verified deliveries in Perforce against milestone requirements and flagged console memory risks early.</p>
             <p>• Forecasted headcount across Tech Art and 3D Character teams against client milestones.</p>
             <div class="modal-gallery">
