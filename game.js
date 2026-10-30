@@ -650,7 +650,7 @@ function setupNodeModals() {
         <div class="tab-tutorial-hint">💡 TIP: Press ◄ / ► Arrow Keys or Tap Tabs to Switch</div>
         <div class="edu-tabs-header">
             <button class="edu-tab-btn active" id="sport-tab-btn-1">BASKETBALL</button>
-            <button class="edu-tab-btn" id="sport-tab-btn-2">MY FIRST SIDE HUSTILE</button>
+            <button class="edu-tab-btn" id="sport-tab-btn-2">MY FIRST SIDE HUSTLE</button>
         </div>
         <div class="modal-scroll-body">
             <div id="sport-tab-content-1">
