@@ -380,13 +380,13 @@ function setupNodeModals() {
         </div>
         <div class="modal-scroll-body">
             <div id="edu-tab-content-1">
-                <p>• <strong>PRODUCTION:</strong> Agile, Scrum, Kanban, Roadmapping, Milestone Planning, Dependency Management, Risk Mitigation, Capacity Planning, Live-Ops Release Management</p>
-                <p>• <strong>PARTNERS & BUSINESS:</strong> Co-dev Partner Vetting, SOW Scoping & Contract Negotiation, External Milestone Review, Quality Gates, Vendor & Stakeholder Management, Budget & Resource Allocation</p>
-                <p>• <strong>PLATFORMS:</strong> PC, PlayStation, Xbox, Nintendo Switch, Mobile; Multi-platform Production, Platform Requirements</p>
-                <p>• <strong>GAME TYPES:</strong> Early Access, Multiplayer, Live Service, Cross-Platform, Systems-driven Games</p>
-                <p>• <strong>LEADERSHIP:</strong> Remote/Async Team Leadership, Executive Reporting, Mentoring & Coaching, Cross-Discipline Coordination</p>
-                <p>• <strong>TOOLS (Hands-on):</strong> Jira, Confluence, Notion, Airtable, Miro, Figma</p>
-                <p>• <strong>TECHNICAL FAMILIARITY:</strong> Unity, Unreal Engine 5, Perforce</p>
+                <p>• <strong>PRODUCTION & DELIVERY:</strong> Agile, Scrum, Kanban, Hybrid Methodologies, Roadmapping, Milestone Planning, Dependency & Risk Management, Bottleneck Identification, Capacity Planning, Scope & Change Management</p>
+                <p>• <strong>ART PIPELINES & CO-DEV:</strong> Concept Art, 3D, Animation, VFX, Tech Art, Art Vendor Delivery; Partner Vetting, SOW Negotiation, Client Milestone Reviews, Quality Gates & Technical QC, Budget Forecasting</p>
+                <p>• <strong>DISTRIBUTED TEAMS & LEADERSHIP:</strong> Cross-timezone Coordination (US, EU, Middle East, APAC), Multidisciplinary Team Coordination, Remote/Async Leadership, Mentoring</p>
+                <p>• <strong>PROCESS IMPROVEMENT:</strong> Jira Automation, QC Checklist Tools, Estimated vs. Actual & Cost per Asset Reporting</p>
+                <p>• <strong>TOOLS (Hands-on):</strong> Jira, Notion, ShotGrid, Trello, Asana, Monday, Airtable, Confluence, Excel, Google Sheets, Slack, Frame.io, Miro, Figma, Perforce</p>
+                <p>• <strong>ENGINES & PLATFORMS:</strong> Unity, Unreal Engine; PC, PlayStation, Xbox, Nintendo Switch, Mobile</p>
+                <p>• <strong>LANGUAGE:</strong> English (native-level)</p>
             </div>
             <div id="edu-tab-content-2" style="display: none;">
                 <p>• <strong>Bachelor of Engineering, Logistics & Supply Chain Management</strong> | Vietnam National University - HCM IU</p>
