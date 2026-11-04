@@ -1,12 +1,12 @@
 // --- 1. GLOBAL AUDIO SYSTEM (HOMEPAGE & IN-GAME) ---
-const bgmAudio = new Audio('assets/bgm.mp3');
+const bgmAudio = new Audio('../assets/bgm.mp3');
 bgmAudio.loop = true;
 bgmAudio.volume = 0.2;
 
-const clickAudio = new Audio('assets/click_sfx.mp3');
+const clickAudio = new Audio('../assets/click_sfx.mp3');
 clickAudio.volume = 0.4;
 
-const interactAudio = new Audio('assets/interact_sfx.mp3');
+const interactAudio = new Audio('../assets/interact_sfx.mp3');
 interactAudio.volume = 0.4;
 
 let bgmMuted = false;
@@ -440,7 +440,7 @@ function setupNodeModals() {
             <p>• Deliver weekly status to studio leadership on progress, resource allocation and live-ops risks.</p>
             <p>• Support discipline leads across Saigon and Barcelona in owning feature delivery and clearing daily blockers.</p>
             <div class="modal-gallery">
-                <img src="assets/document/gameloft_1.png" alt="Gameloft Showcase">
+                <img src="../assets/document/gameloft_1.png" alt="Gameloft Showcase">
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER (Concurrent Contract)</strong> | 09/2025 – 11/2025<br>
@@ -448,8 +448,8 @@ function setupNodeModals() {
             <p>• Set up workflows between Design, 3D Art and Tech Art to speed up UE5 integration in a 3-month engagement.</p>
             <p>• Drove production sprints to a public playtest build on Epic Games Store before the studio closed due to funding.</p>
             <div class="modal-gallery">
-                <img src="assets/document/seedworld_1.png" alt="Seedworld Showcase 1">
-                <img src="assets/document/seedworld_2.gif" alt="Seedworld Showcase 2">
+                <img src="../assets/document/seedworld_1.png" alt="Seedworld Showcase 1">
+                <img src="../assets/document/seedworld_2.gif" alt="Seedworld Showcase 2">
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>LEAD PROJECT MANAGER | PRODUCER</strong> | 05/2022 – 11/2025<br>
@@ -460,10 +460,10 @@ function setupNodeModals() {
             <p>• Vetted work-for-hire art vendors for Duet Monsters and Origins; negotiated 6-month SOWs (scope, rates, payment terms) with Legal/BizDev and saved 8% on asset budget.</p>
             <p>• Reworked sprint planning for multiple concurrent projects during rapid studio growth; main contact between dev teams and senior business stakeholders.</p>
             <div class="modal-gallery">
-                <img src="assets/document/skymavis_1.png" alt="Sky Mavis Showcase 1">
-                <img src="assets/document/skymavis_2.png" alt="Sky Mavis Showcase 2">
-                <img src="assets/document/skymavis_3.png" alt="Sky Mavis Showcase 3">
-                <img src="assets/document/skymavis_4.png" alt="Sky Mavis Showcase 4">
+                <img src="../assets/document/skymavis_1.png" alt="Sky Mavis Showcase 1">
+                <img src="../assets/document/skymavis_2.png" alt="Sky Mavis Showcase 2">
+                <img src="../assets/document/skymavis_3.png" alt="Sky Mavis Showcase 3">
+                <img src="../assets/document/skymavis_4.png" alt="Sky Mavis Showcase 4">
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER</strong> | 01/2019 – 05/2022<br>
@@ -472,9 +472,9 @@ function setupNodeModals() {
             <p>• Set acceptance criteria and quality checks with clients; verified deliveries in Perforce against milestone requirements and flagged console memory risks early.</p>
             <p>• Forecasted headcount across Tech Art and 3D Character teams against client milestones.</p>
             <div class="modal-gallery">
-                <img src="assets/document/sparx_1.png" alt="Sparx Showcase 1">
-                <img src="assets/document/sparx_2.png" alt="Sparx Showcase 2">
-                <img src="assets/document/sparx_3.png" alt="Sparx Showcase 3">
+                <img src="../assets/document/sparx_1.png" alt="Sparx Showcase 1">
+                <img src="../assets/document/sparx_2.png" alt="Sparx Showcase 2">
+                <img src="../assets/document/sparx_3.png" alt="Sparx Showcase 3">
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>Early career (non-game project management)</strong><br>
@@ -488,35 +488,35 @@ function setupNodeModals() {
         <h2>SHIPPED TITLES & PROJECTS</h2>
         <div class="modal-scroll-body">
             <div class="node-card">
-                <img src="assets/document/asphaltlegends.png" alt="Asphalt Legends Unite" class="node-card-img">
+                <img src="../assets/document/asphaltlegends.png" alt="Asphalt Legends Unite" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>ASPHALT LEGENDS (2026)</strong> | PS4/PS5, Xbox One/Series, Switch, PC, Mobile<br>
                     <em>PRODUCER, live-ops | 20+ internal (Saigon), co-dev with Gameloft Barcelona</em></p>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/duetmonsters.png" alt="Duet Monsters" class="node-card-img">
+                <img src="../assets/document/duetmonsters.png" alt="Duet Monsters" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>DUET MONSTERS (2024)</strong> | PC, Mobile | Licensed IP<br>
                     <em>EXTERNAL DEVELOPMENT PRODUCER, co-dev production | Co-dev oversight, SOW negotiation with Legal/BizDev</em></p>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/homeland.png" alt="Axie Infinity: Homeland" class="node-card-img">
+                <img src="../assets/document/homeland.png" alt="Axie Infinity: Homeland" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>AXIE INFINITY: HOMELAND (2023)</strong> | PC (Early Access → 1.0)<br>
                     <em>LEAD PRODUCER, pre-production through live support | 35+ internal, plus external QA, localization and audio vendors</em></p>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/origins.png" alt="Axie Infinity: Origins" class="node-card-img">
+                <img src="../assets/document/origins.png" alt="Axie Infinity: Origins" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>AXIE INFINITY: ORIGINS (2022)</strong> | PC, Mobile<br>
                     <em>PRODUCER, roadmap through 1.0 launch | 25+ internal, 2 co-dev studios (animation, audio)</em></p>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/thequarry.png" alt="The Quarry" class="node-card-img">
+                <img src="../assets/document/thequarry.png" alt="The Quarry" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>THE QUARRY (2022)</strong> | PS4/PS5, Xbox One/Series, PC<br>
                     <em>PRODUCER (AAA co-dev), art pipeline delivery | 10-person Tech Art and 3D Character team</em></p>
@@ -528,32 +528,32 @@ function setupNodeModals() {
                 </div>
                 <div class="game-grid-4col">
                     <div class="game-item">
-                        <img src="assets/document/core.png" alt="CORE by Manticore Games">
+                        <img src="../assets/document/core.png" alt="CORE by Manticore Games">
                         <span>CORE by Manticore Games</span>
                     </div>
                     <div class="game-item">
-                        <img src="assets/document/xcomlegends.png" alt="XCOM LEGENDS by Chimera Games">
+                        <img src="../assets/document/xcomlegends.png" alt="XCOM LEGENDS by Chimera Games">
                         <span>XCOM LEGENDS by Chimera Games</span>
                     </div>
                     <div class="game-item">
-                        <img src="assets/document/clashofbeasts.png" alt="CLASH OF BEAST by Ubisoft">
+                        <img src="../assets/document/clashofbeasts.png" alt="CLASH OF BEAST by Ubisoft">
                         <span>CLASH OF BEAST by Ubisoft</span>
                     </div>
                     <div class="game-item">
-                        <img src="assets/document/century.png" alt="CENTURY: AGE OF ASHES by Playwing LTD">
+                        <img src="../assets/document/century.png" alt="CENTURY: AGE OF ASHES by Playwing LTD">
                         <span>CENTURY: AGE OF ASHES by Playwing LTD</span>
                     </div>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/seedworld_1.png" alt="Unreleased Project: Seedworld" class="node-card-img">
+                <img src="../assets/document/seedworld_1.png" alt="Unreleased Project: Seedworld" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>UNRELEASED PROJECT: SEEDWORLD (2025)</strong> | PC, UE5 survival game<br>
                     <em>Producer, UE5 workflow setup and playtest build | Studio closed due to funding before release.</em></p>
                 </div>
             </div>
             <div class="node-card">
-                <img src="assets/document/greenbird_0b.png" alt="Unannounced Indie Project" class="node-card-img">
+                <img src="../assets/document/greenbird_0b.png" alt="Unannounced Indie Project" class="node-card-img">
                 <div class="node-card-text">
                     <p>• <strong>UNANNOUNCED INDIE PROJECT (2026 - Present)</strong> | Roguelite RPG<br>
                     <em>Producer and systems designer, pre-production</em></p>
@@ -568,7 +568,7 @@ function setupNodeModals() {
         <h2>MY INDIE GAME PROJECT</h2>
         <div class="modal-scroll-body">
             <div style="text-align: center; margin-bottom: 12px;">
-                <img src="assets/document/greenbird_0a.png" alt="Greenbird Banner" style="width: 100%; max-width: 314px; height: auto; aspect-ratio: 1257 / 600; object-fit: cover; border-radius: 4px; border: 1px solid #444; margin: 0 auto; display: block; box-sizing: border-box;">
+                <img src="../assets/document/greenbird_0a.png" alt="Greenbird Banner" style="width: 100%; max-width: 314px; height: auto; aspect-ratio: 1257 / 600; object-fit: cover; border-radius: 4px; border: 1px solid #444; margin: 0 auto; display: block; box-sizing: border-box;">
             </div>
             <p><strong>Unannounced Kakapo-Inspired 2.5D Roguelite RPG</strong></p>
             <p>• <strong>Role:</strong> Product Strategy, Systemic Design & Worldbuilding (In collaboration with a Core Team spanning Art, Technical, and Community & IP Building)</p>
@@ -578,23 +578,23 @@ function setupNodeModals() {
             Set in a multi-layered avian kingdom divided by class and power, the core experience is driven by deep story exploration and character development. Anchored by dynamic In-Run Character Swapping, players unearth the dark secrets of a dystopian world while uncovering the personal arcs, synergies, and evolving relationships of four distinct bird protagonists.</p>
             <p><strong>Early Character Concept</strong></p>
             <div class="modal-gallery">
-                <img src="assets/document/greenbird_1.png" alt="Early Character Concept 1">
-                <img src="assets/document/greenbird_2.png" alt="Early Character Concept 2">
-                <img src="assets/document/greenbird_3.png" alt="Early Character Concept 3">
-                <img src="assets/document/greenbird_4.png" alt="Early Character Concept 4">
-                <img src="assets/document/greenbird_5.png" alt="Early Character Concept 5">
+                <img src="../assets/document/greenbird_1.png" alt="Early Character Concept 1">
+                <img src="../assets/document/greenbird_2.png" alt="Early Character Concept 2">
+                <img src="../assets/document/greenbird_3.png" alt="Early Character Concept 3">
+                <img src="../assets/document/greenbird_4.png" alt="Early Character Concept 4">
+                <img src="../assets/document/greenbird_5.png" alt="Early Character Concept 5">
             </div>
             <p><strong>Camera Angle Test</strong></p>
             <div class="modal-gallery">
-                <img src="assets/document/greenbird_6.png" alt="Camera Angle Test 1">
-                <img src="assets/document/greenbird_7.png" alt="Camera Angle Test 2">
-                <img src="assets/document/greenbird_8.png" alt="Camera Angle Test 3">
+                <img src="../assets/document/greenbird_6.png" alt="Camera Angle Test 1">
+                <img src="../assets/document/greenbird_7.png" alt="Camera Angle Test 2">
+                <img src="../assets/document/greenbird_8.png" alt="Camera Angle Test 3">
             </div>
             <p><strong>Restaurant View Test & Color Options</strong></p>
             <div class="modal-gallery">
-                <img src="assets/document/greenbird_9.png" alt="Restaurant View Test 1">
-                <img src="assets/document/greenbird_10.png" alt="Restaurant View Test 2">
-                <img src="assets/document/greenbird_11.png" alt="Restaurant View Test 3">
+                <img src="../assets/document/greenbird_9.png" alt="Restaurant View Test 1">
+                <img src="../assets/document/greenbird_10.png" alt="Restaurant View Test 2">
+                <img src="../assets/document/greenbird_11.png" alt="Restaurant View Test 3">
             </div>
         </div>
         <button class="btn-close">Close / [ESC]</button>
@@ -617,7 +617,7 @@ function setupNodeModals() {
         <h2>MY LOVELY PUPPY - BÔNG</h2>
         <div class="modal-scroll-body">
             <div class="node-card">
-                <img src="assets/document/bong_thumbnail.png" alt="Bông Thumbnail" class="node-card-img">
+                <img src="../assets/document/bong_thumbnail.png" alt="Bông Thumbnail" class="node-card-img">
                 <div class="node-card-text">
                     <p>Meet Bông, my 5-year-old tiny cotton ball! She is a Bichon Frise and Shih Tzu mix and a content creator that has +10k follower on TikTok (account run by her mama lol).</p>
                     <p>You can check her out at: <a href="https://www.tiktok.com/@conbongbao" target="_blank" rel="noopener noreferrer" style="color: #4af; text-decoration: underline; word-break: break-all;">https://www.tiktok.com/@conbongbao</a>.</p>
@@ -633,11 +633,11 @@ function setupNodeModals() {
         <h2>MY ACOUSTIC CAFÉ & LOUNGE STARTUP</h2>
         <div class="modal-scroll-body">
             <div class="node-card">
-                <img src="assets/document/cliche_thumbnail.png" alt="Cliche Thumbnail" class="node-card-img">
+                <img src="../assets/document/cliche_thumbnail.png" alt="Cliche Thumbnail" class="node-card-img">
                 <div class="node-card-text">
                     <p><strong>My Real-World Business Bootcamp: Cliché Café & Lounge</strong></p>
                     <p>Acquired, rebranded, and managed an end-to-end F&B business in central Saigon. From optimizing daytime office traffic to weekend acoustic shows and pivoting through COVID-19 lockdowns, this 2-year venture laid the foundational operational mindset for my leadership career.</p>
-                    <p><a href="assets/document/cliche.pdf" target="_blank" rel="noopener noreferrer" style="color: #ffcc00; text-decoration: underline; font-weight: bold;">[See details]</a></p>
+                    <p><a href="../assets/document/cliche.pdf" target="_blank" rel="noopener noreferrer" style="color: #ffcc00; text-decoration: underline; font-weight: bold;">[See details]</a></p>
                 </div>
             </div>
         </div>
@@ -656,15 +656,15 @@ function setupNodeModals() {
             <div id="sport-tab-content-1">
                 <p>Basketball has been a core pillar of my life since the age of 8. Moving from school leagues to founding and leading corporate teams, the court has always been my laboratory for discipline, high-speed execution, and situational leadership. To me, basketball is far more than a sport - it is a continuous masterclass in spatial awareness, adaptive tactics under pressure, and building seamless team synergy. The deep, lasting camaraderie built over a decade on the court directly shapes how I lead cross-functional game development teams today: with high trust, clear communication, and relentless drive.</p>
                 <div class="modal-gallery">
-                    <img src="assets/document/basketball_1.png" alt="Basketball 1">
-                    <img src="assets/document/basketball_2.png" alt="Basketball 2">
-                    <img src="assets/document/basketball_3.png" alt="Basketball 3">
-                    <img src="assets/document/basketball_4.png" alt="Basketball 4">
+                    <img src="../assets/document/basketball_1.png" alt="Basketball 1">
+                    <img src="../assets/document/basketball_2.png" alt="Basketball 2">
+                    <img src="../assets/document/basketball_3.png" alt="Basketball 3">
+                    <img src="../assets/document/basketball_4.png" alt="Basketball 4">
                 </div>
             </div>
             <div id="sport-tab-content-2" style="display: none;">
                 <div class="node-card">
-                    <img src="assets/document/zoomarc.png" alt="Zoomarc Thumbnail" class="node-card-img">
+                    <img src="../assets/document/zoomarc.png" alt="Zoomarc Thumbnail" class="node-card-img">
                     <div class="node-card-text">
                         <p><strong>ZOOMARC</strong> - Custom Basketball Apparel</p>
                         <p><a href="https://www.instagram.com/zoomarc" target="_blank" rel="noopener noreferrer" style="color: #ffcc00; text-decoration: underline;">[Link to IG Page]</a></p>
@@ -711,31 +711,31 @@ function setupNodeModals() {
         <div class="modal-scroll-body">
             <div class="game-grid">
                 <div class="game-item">
-                    <img src="assets/document/davethediver.png" alt="DAVE THE DIVER">
+                    <img src="../assets/document/davethediver.png" alt="DAVE THE DIVER">
                     <span>DAVE THE DIVER</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/cultofthelambs.png" alt="CULT OF THE LAMB">
+                    <img src="../assets/document/cultofthelambs.png" alt="CULT OF THE LAMB">
                     <span>CULT OF THE LAMB</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/dredge.png" alt="DREDGE">
+                    <img src="../assets/document/dredge.png" alt="DREDGE">
                     <span>DREDGE</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/fc26.png" alt="FC 26">
+                    <img src="../assets/document/fc26.png" alt="FC 26">
                     <span>FC 26</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/streetfighter6.png" alt="STREET FIGHTER 6">
+                    <img src="../assets/document/streetfighter6.png" alt="STREET FIGHTER 6">
                     <span>STREET FIGHTER 6</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/valorant.png" alt="VALORANT">
+                    <img src="../assets/document/valorant.png" alt="VALORANT">
                     <span>VALORANT</span>
                 </div>
                 <div class="game-item">
-                    <img src="assets/document/marvelsnap.png" alt="MARVEL SNAP">
+                    <img src="../assets/document/marvelsnap.png" alt="MARVEL SNAP">
                     <span>MARVEL SNAP</span>
                 </div>
             </div>
@@ -1092,25 +1092,25 @@ const PLAYER_SHEETS = {
 
 function preload() {
     // 1. Preload Audio Assets & In-Game HUD Icon Images
-    this.load.audio('flying_sfx', 'assets/flying_sfx.mp3');
-    this.load.image('home_icon', 'assets/home.png');
-    this.load.image('setting_icon', 'assets/setting.png');
+    this.load.audio('flying_sfx', '../assets/flying_sfx.mp3');
+    this.load.image('home_icon', '../assets/home.png');
+    this.load.image('setting_icon', '../assets/setting.png');
 
     // 2. Preload room visual assets
     RENDER_ORDER.forEach(key => {
         if (ANIMATED_ASSETS[key]) {
             const frameCount = ANIMATED_ASSETS[key].count;
             for (let i = 1; i <= frameCount; i++) {
-                this.load.image(`${key}_${i}`, `assets/${key}_${i}.png`);
+                this.load.image(`${key}_${i}`, `../assets/${key}_${i}.png`);
             }
         } else {
-            this.load.image(key, `assets/${key}.png`);
+            this.load.image(key, `../assets/${key}.png`);
         }
     });
 
     // 3. Preload Player Character Spritesheets at 90x90 px
     Object.keys(PLAYER_SHEETS).forEach(dir => {
-        this.load.spritesheet(`player_${dir}`, `assets/${PLAYER_SHEETS[dir]}`, {
+        this.load.spritesheet(`player_${dir}`, `../assets/${PLAYER_SHEETS[dir]}`, {
             frameWidth: 90,
             frameHeight: 90
         });
