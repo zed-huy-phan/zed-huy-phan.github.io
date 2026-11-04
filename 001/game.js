@@ -435,18 +435,16 @@ function setupNodeModals() {
         <div class="modal-scroll-body">
             <p><strong>SENIOR PROJECT MANAGER, Live-Ops Production</strong> | 04/2026 – Present<br>
             <em>Gameloft, global mobile and console game publisher | Hybrid</em></p>
-            <p>• Produce live-ops content for Asphalt Legends, including cosmetics and promotional assets, with the Saigon team and Barcelona co-dev to keep the live-ops roadmap on cadence.</p>
-            <p>• Align Agile/Jira workflows and dependency tracking across Barcelona and Saigon studios to reduce cross-timezone handoff delays.</p>
-            <p>• Deliver weekly status to studio leadership on progress, resource allocation and live-ops risks.</p>
-            <p>• Support discipline leads across Saigon and Barcelona in owning feature delivery and clearing daily blockers.</p>
+            <p>• Own the live-ops production plan for Asphalt Legends, coordinating art and content deliverables between the Saigon team and Barcelona co-dev to keep the roadmap on cadence.</p>
+            <p>• Align Agile/Jira workflows and dependency tracking across both studios to reduce cross-timezone handoff delays.</p>
+            <p>• Deliver weekly status reports on progress, resource allocation, risks, and project health; support discipline leads in clearing blockers early.</p>
             <div class="modal-gallery">
                 <img src="../assets/document/gameloft_1.png" alt="Gameloft Showcase">
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER (Concurrent Contract)</strong> | 09/2025 – 11/2025<br>
             <em>Seedworld Studios, survival game developer (Unreal Engine 5) | Remote</em></p>
-            <p>• Set up workflows between Design, 3D Art and Tech Art to speed up UE5 integration in a 3-month engagement.</p>
-            <p>• Drove production sprints to a public playtest build on Epic Games Store before the studio closed due to funding.</p>
+            <p>• Set up workflows between Design, 3D Art, and Tech Art to speed up UE5 integration, and drove sprints to a public playtest build on Epic Games Store before the studio closed due to funding.</p>
             <div class="modal-gallery">
                 <img src="../assets/document/seedworld_1.png" alt="Seedworld Showcase 1">
                 <img src="../assets/document/seedworld_2.gif" alt="Seedworld Showcase 2">
@@ -454,11 +452,11 @@ function setupNodeModals() {
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>LEAD PROJECT MANAGER | PRODUCER</strong> | 05/2022 – 11/2025<br>
             <em>Sky Mavis, developer of Axie Infinity | Hybrid</em></p>
-            <p>• Led and mentored associate producers, and aligned discipline leads across Design, Art and Engineering, on a Homeland team.</p>
-            <p>• Produced Axie Infinity: Homeland from pre-production through Early Access to a simultaneous global 1.0 launch, then produced 4 major post-launch content updates informed by telemetry; coordinated QA, localization and audio vendors.</p>
-            <p>• Co-built the 12-month production roadmap for Axie Infinity: Origins and scoped requirements for 2 co-dev studios (animation, audio) through 1.0 launch.</p>
-            <p>• Vetted work-for-hire art vendors for Duet Monsters and Origins; negotiated 6-month SOWs (scope, rates, payment terms) with Legal/BizDev and saved 8% on asset budget.</p>
-            <p>• Reworked sprint planning for multiple concurrent projects during rapid studio growth; main contact between dev teams and senior business stakeholders.</p>
+            <p>• Led and mentored 2 associate producers and aligned Design, Art, and Engineering leads on a 35-person Homeland team, covering concept art, 3D, animation, VFX, and tech art pipelines.</p>
+            <p>• Produced Axie Infinity: Homeland from pre-production through Early Access to a simultaneous global 1.0 launch and 4 post-launch updates; coordinated QA, localization, and audio vendors.</p>
+            <p>• Co-built the 12-month roadmap for Axie Infinity: Origins through 1.0 launch and scoped requirements for 2 co-dev studios (animation, audio).</p>
+            <p>• Vetted work-for-hire art vendors for Duet Monsters and Origins; negotiated 6-month SOWs (scope, rates, payment terms) with Legal/BizDev, saving 8% on asset budget; supported onboarding of 4 new studio partnerships through Joint Business Plans.</p>
+            <p>• Reworked sprint planning across 4 concurrent projects during rapid studio growth, raising on-time sprint completion from 85% to 90%; introduced AI-assisted tools that cut asset iteration cycles by 15% without adding headcount; main contact between dev teams and senior business stakeholders.</p>
             <div class="modal-gallery">
                 <img src="../assets/document/skymavis_1.png" alt="Sky Mavis Showcase 1">
                 <img src="../assets/document/skymavis_2.png" alt="Sky Mavis Showcase 2">
@@ -468,9 +466,12 @@ function setupNodeModals() {
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER</strong> | 01/2019 – 05/2022<br>
             <em>Sparx - a Virtuos Studio, AAA co-development studio | Hybrid</em></p>
-            <p>• Managed external delivery of the art pipeline for AAA clients, including The Quarry (Supermassive Games), CORE (Manticore Games), XCOM Legends (Chimera Games), Clash of Beasts (Ubisoft) and Century: Age of Ashes (Playwing).</p>
-            <p>• Set acceptance criteria and quality checks with clients; verified deliveries in Perforce against milestone requirements and flagged console memory risks early.</p>
-            <p>• Forecasted headcount across Tech Art and 3D Character teams against client milestones.</p>
+            <p>• Managed external art pipeline delivery (concept art, 3D character, animation, VFX, tech art) for AAA clients including The Quarry (Supermassive Games), CORE (Manticore Games), XCOM Legends (Chimera Games), Clash of Beasts (Ubisoft), and Century: Age of Ashes (Playwing).</p>
+            <p>• Led 30+ members across 6+ AAA projects, up to 3 concurrently, for clients in the US, Germany, Singapore, UAE, Spain, and the UK, forecasting headcount and capacity against overlapping milestones; delivered 90%+ of assets on time.</p>
+            <p>• Ran client-facing milestone reviews: set acceptance criteria and quality checks, verified deliveries in Perforce and flagged console memory risks early; kept 95% of assets to an average of 2 feedback rounds.</p>
+            <p>• Protected scope by negotiating client changes against the original agreement (swapping tasks, billing add-ons separately, re-prioritizing, or extending timelines); sent weekly follow-ups on late feedback flagging milestone risk and rush-fee or extra-support options for client confirmation.</p>
+            <p>• Unblocked a client-side Tech Art engine-integration bottleneck by escalating for a part-time Tech Artist as a technical QC gate, and built a QC checklist tool that auto-checks artist submissions against client export requirements.</p>
+            <p>• Built per-project tracking in Jira, Notion, Airtable, and Excel, with Jira automation (native, functions, scripts, API) syncing Jira and Notion data to Excel to track estimated vs. actual time and cost per asset and bundle, cutting client feedback waiting time and artist idle time.</p>
             <div class="modal-gallery">
                 <img src="../assets/document/sparx_1.png" alt="Sparx Showcase 1">
                 <img src="../assets/document/sparx_2.png" alt="Sparx Showcase 2">
