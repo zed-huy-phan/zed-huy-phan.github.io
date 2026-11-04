@@ -488,38 +488,10 @@ function setupNodeModals() {
         <h2>SHIPPED TITLES & PROJECTS</h2>
         <div class="modal-scroll-body">
             <div class="node-card">
-                <img src="../assets/document/asphaltlegends.png" alt="Asphalt Legends Unite" class="node-card-img">
-                <div class="node-card-text">
-                    <p>• <strong>ASPHALT LEGENDS (2026)</strong> | PS4/PS5, Xbox One/Series, Switch, PC, Mobile<br>
-                    <em>PRODUCER, live-ops | 20+ internal (Saigon), co-dev with Gameloft Barcelona</em></p>
-                </div>
-            </div>
-            <div class="node-card">
-                <img src="../assets/document/duetmonsters.png" alt="Duet Monsters" class="node-card-img">
-                <div class="node-card-text">
-                    <p>• <strong>DUET MONSTERS (2024)</strong> | PC, Mobile | Licensed IP<br>
-                    <em>EXTERNAL DEVELOPMENT PRODUCER, co-dev production | Co-dev oversight, SOW negotiation with Legal/BizDev</em></p>
-                </div>
-            </div>
-            <div class="node-card">
-                <img src="../assets/document/homeland.png" alt="Axie Infinity: Homeland" class="node-card-img">
-                <div class="node-card-text">
-                    <p>• <strong>AXIE INFINITY: HOMELAND (2023)</strong> | PC (Early Access → 1.0)<br>
-                    <em>LEAD PRODUCER, pre-production through live support | 35+ internal, plus external QA, localization and audio vendors</em></p>
-                </div>
-            </div>
-            <div class="node-card">
-                <img src="../assets/document/origins.png" alt="Axie Infinity: Origins" class="node-card-img">
-                <div class="node-card-text">
-                    <p>• <strong>AXIE INFINITY: ORIGINS (2022)</strong> | PC, Mobile<br>
-                    <em>PRODUCER, roadmap through 1.0 launch | 25+ internal, 2 co-dev studios (animation, audio)</em></p>
-                </div>
-            </div>
-            <div class="node-card">
                 <img src="../assets/document/thequarry.png" alt="The Quarry" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>THE QUARRY (2022)</strong> | PS4/PS5, Xbox One/Series, PC<br>
-                    <em>PRODUCER (AAA co-dev), art pipeline delivery | 10-person Tech Art and 3D Character team</em></p>
+                    <p>• <strong>THE QUARRY </strong>(2021 - 2022, Supermassive Games, Unreal) | PS4/PS5, Xbox One/Series, PC<br>
+                    <em>PRODUCER (AAA co-dev), art pipeline delivery | Tech Art and 3D Character team of 10</em></p>
                 </div>
             </div>
             <div class="node-card" style="display: block;">
@@ -543,6 +515,34 @@ function setupNodeModals() {
                         <img src="../assets/document/century.png" alt="CENTURY: AGE OF ASHES by Playwing LTD">
                         <span>CENTURY: AGE OF ASHES by Playwing LTD</span>
                     </div>
+                </div>
+            </div>
+            <div class="node-card">
+                <img src="../assets/document/duetmonsters.png" alt="Duet Monsters" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>DUET MONSTERS </strong>(2024, Unity) | PC, Mobile | Licensed IP<br>
+                    <em>EXTERNAL DEVELOPMENT PRODUCER, co-dev production | Co-dev oversight, SOW negotiation with Legal/BizDev</em></p>
+                </div>
+            </div>
+            <div class="node-card">
+                <img src="../assets/document/homeland.png" alt="Axie Infinity: Homeland" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>AXIE INFINITY: HOMELAND </strong>(2023 - 2025, Unity) | PC (Early Access → 1.0)<br>
+                    <em>LEAD PRODUCER, pre-production through live support | 35+ internal, plus external QA, localization and audio vendors</em></p>
+                </div>
+            </div>
+            <div class="node-card">
+                <img src="../assets/document/origins.png" alt="Axie Infinity: Origins" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>AXIE INFINITY: ORIGINS </strong>(2022 - 2023, Unity) | PC, Mobile<br>
+                    <em>PRODUCER, roadmap through 1.0 launch | 25+ internal, 2 co-dev studios (animation, audio)</em></p>
+                </div>
+            </div>
+            <div class="node-card">
+                <img src="../assets/document/asphaltlegends.png" alt="Asphalt Legends Unite" class="node-card-img">
+                <div class="node-card-text">
+                    <p>• <strong>ASPHALT LEGENDS </strong>(2026 - Present, Unreal) | PS4/PS5, Xbox One/Series, Switch, PC, Mobile<br>
+                    <em>PRODUCER, live-ops | 20+ internal (Saigon), co-dev with Gameloft Barcelona</em></p>
                 </div>
             </div>
             <div class="node-card">
@@ -605,7 +605,7 @@ function setupNodeModals() {
         <h2>PROFESSIONAL SUMMARY</h2>
         <div class="modal-scroll-body">
             <p>Hello, I am Zed, welcome to my personal portfolio!</p>
-            <p>I am a Senior Producer with 7+ years in game production and 3+ shipped PC, console and mobile titles, including the full lifecycle from pre-production through 1.0 launch and live-ops. Specializes in co-development partnerships: vetting studios, negotiating scope and payment terms with Legal/BizDev, and reviewing external milestones. Led and mentored associate producers and aligned cross-discipline leads across distributed studios.</p>
+            <p>I am a Senior Project Manager / Producer with 7+ years in game production and 3+ commercially shipped titles across PC, console, and mobile. Specializes in game art pipelines (concept art, 3D, animation, VFX, tech art) and co-development across Unity and Unreal Engine workflows. Brings a “both sides of the table” perspective: delivered AAA art for clients such as Supermassive Games and Ubisoft at Sparx, then managed co-dev partners and external vendors at Sky Mavis and Gameloft. Led multidisciplinary teams across distributed studios from pre-production through 1.0 launch and live-ops, with hands-on SOW negotiation and milestone reviews. Establishes lightweight Jira/Notion workflows that remove bottlenecks without adding bureaucracy. Specializes in co-development partnerships: vetting studios, negotiating scope and payment terms with Legal/BizDev, and reviewing external milestones. Led and mentored associate producers and aligned cross-discipline leads across distributed studios.</p>
             <p>Feel free to go around and interact with the items in the room to learn more about me :)</p>
             <p>Hope you enjoy it!</p>
         </div>
