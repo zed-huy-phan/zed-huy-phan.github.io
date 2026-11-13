@@ -1152,7 +1152,7 @@ function create() {
     const separationGap = 18;
     const labelY = arrowY - (scaledArrowHeight / 2) - separationGap;
 
-    this.tvHelpText = this.add.text(arrowX, labelY, 'Interact to see my\nshipped game products', {
+    this.tvHelpText = this.add.text(arrowX, labelY, 'Interact to see my\ngame product portfolio', {
         fontFamily: '"Press Start 2P", monospace',
         fontSize: '9px',
         fill: '#ffcc00',
