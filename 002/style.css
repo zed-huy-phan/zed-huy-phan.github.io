@@ -123,54 +123,56 @@ body, html {
     50%, 100% { opacity: 0; }
 }
 
-/* Mobile View Only: Extend modal vertically downwards so max speech text fits cleanly below ABOUT button */
+/* Mobile View Only: Shift avatar & speech bubble entirely below the ABOUT button */
 @media (max-width: 820px) {
     #main-menu {
         top: 50% !important;
         left: 50% !important;
         transform: translate(-50%, -50%) !important;
-        padding-top: 40px !important;
-        padding-bottom: 195px !important; /* Extends space below ABOUT button for max-length speech bubble */
-        max-height: 92vh !important;
+        padding-top: 30px !important;
+        padding-bottom: 230px !important; /* Extra bottom canvas space for avatar & expanded text */
+        max-height: 95vh !important;
     }
     #home-avatar-wrapper {
-        right: 12px;
-        bottom: 12px;
+        position: absolute;
+        bottom: 15px !important;
+        right: 15px !important;
+        left: auto !important;
     }
     #home-avatar-img {
-        width: 82px;
+        width: 78px;
     }
     #home-speech-bubble {
         position: absolute;
-        top: -58px; /* Anchors top edge well below ABOUT button so multi-line text expands downward */
-        bottom: auto;
-        right: 90px; /* Sits cleanly to the left of the avatar */
-        left: auto;
-        width: calc(90vw - 125px); /* Dynamically uses full available width inside the modal */
-        max-width: 235px;
-        min-height: 60px;
-        font-size: 7.2px;
-        line-height: 1.55;
-        padding: 8px 9px;
+        bottom: 5px !important;
+        top: auto !important;
+        right: 88px !important; /* Positioned to the left of the avatar below ABOUT */
+        left: 10px !important;  /* Constrained within modal width */
+        width: auto !important;
+        max-width: none !important;
+        min-height: 52px;
+        font-size: 6.8px;
+        line-height: 1.5;
+        padding: 6px 8px;
     }
-    /* Point the speech bubble tail to the right toward the avatar */
+    /* Point speech bubble tail to the right toward the avatar */
     #home-speech-bubble::before {
-        top: 72px;
-        bottom: auto;
-        right: -10px;
-        left: auto;
-        border-top: 7px solid transparent;
-        border-bottom: 7px solid transparent;
+        top: auto !important;
+        bottom: 12px !important;
+        right: -10px !important;
+        left: auto !important;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
         border-left: 10px solid #ffffff;
         border-right: none;
     }
     #home-speech-bubble::after {
-        top: 74px;
-        bottom: auto;
-        right: -7px;
-        left: auto;
-        border-top: 5px solid transparent;
-        border-bottom: 5px solid transparent;
+        top: auto !important;
+        bottom: 14px !important;
+        right: -7px !important;
+        left: auto !important;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
         border-left: 7px solid rgba(0, 0, 0, 0.92);
         border-right: none;
     }
