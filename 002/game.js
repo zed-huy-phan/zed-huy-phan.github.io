@@ -45,6 +45,57 @@ function playInteractSFX() {
 });
 
 
+// --- 1.5 HOME SCREEN AVATAR SPEECH LOOP ---
+const HOME_SPEECH_LINES = [
+    "Hello, I am Zed and welcome to my personal portfolio!",
+    "While building this, I wanted a fresher, more creative way to represent my career in the game industry.",
+    "So, I built this mini-game all by myself - a playable space where you can interact with objects in my room to learn more about who I am and explore the game products I’ve helped bring to life.",
+    "While I’ve made clean, traditional portfolios before, I decided it was time to break the mold and present my work in a truly unique way. Have fun exploring!"
+];
+
+function startHomeSpeechLoop() {
+    const speechTextEl = document.getElementById('home-speech-text');
+    const menuEl = document.getElementById('main-menu');
+    if (!speechTextEl || !menuEl) return;
+
+    let lineIdx = 0;
+    let charIdx = 0;
+
+    function tickSpeech() {
+        // Pause typing progression while inside the room (main-menu hidden)
+        if (menuEl.classList.contains('hidden')) {
+            setTimeout(tickSpeech, 400);
+            return;
+        }
+
+        const currentLine = HOME_SPEECH_LINES[lineIdx];
+
+        if (charIdx < currentLine.length) {
+            speechTextEl.textContent = currentLine.slice(0, charIdx + 1);
+            charIdx++;
+            setTimeout(tickSpeech, 32); // Typewriter speed (ms per character)
+        } else {
+            // Hold completed line for reading, then advance to next line in loop
+            const holdTime = Math.max(2400, currentLine.length * 38);
+            setTimeout(() => {
+                charIdx = 0;
+                lineIdx = (lineIdx + 1) % HOME_SPEECH_LINES.length;
+                speechTextEl.textContent = '';
+                tickSpeech();
+            }, holdTime);
+        }
+    }
+
+    tickSpeech();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startHomeSpeechLoop);
+} else {
+    startHomeSpeechLoop();
+}
+
+
 // --- 2. HTML UI LOGIC & FORCED DYNAMIC MODAL CONTENT OVERWRITE ---
 const uiLayer = document.getElementById('ui-layer') || document.body;
 
@@ -64,6 +115,7 @@ modalStyleTag.innerHTML = `
     }
     #main-menu {
         padding-bottom: 25px !important;
+        max-width: 960px !important;
     }
     .btn-close {
         position: absolute !important;

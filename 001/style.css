@@ -39,7 +39,7 @@ body, html {
 
 /* GIF background applied specifically to Main Menu box */
 #main-menu {
-    background-image: url('assets/menu_bg.gif');
+    background-image: url('../assets/menu_bg.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

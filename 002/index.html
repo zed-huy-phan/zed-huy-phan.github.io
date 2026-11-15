@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Game Producer Portfolio</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
 </head>
@@ -14,11 +14,19 @@
     <div id="ui-layer">
         <!-- Main Menu -->
         <div id="main-menu" class="menu-box">
-            <h1>GAME PRODUCER PORTFOLIO</h1>
+            <h1>ZED PHAN'S PORTFOLIO</h1>
             <div class="button-group">
                 <button id="btn-play">PLAY</button>
                 <button id="btn-options">OPTIONS</button>
                 <button id="btn-about">ABOUT</button>
+            </div>
+
+            <!-- Home Avatar & Upper-Right Looping Speech Bubble -->
+            <div id="home-avatar-wrapper">
+                <div id="home-speech-bubble">
+                    <span id="home-speech-text"></span><span class="speech-cursor">▌</span>
+                </div>
+                <img src="../assets/me_in_home.png" alt="Zed Avatar" id="home-avatar-img">
             </div>
         </div>
 
