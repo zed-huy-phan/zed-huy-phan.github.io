@@ -237,7 +237,7 @@ modalStyleTag.innerHTML = `
     }
     .node-card-text p {
         margin: 0 0 10px 0 !important;
-        line-height: 1.4 !important;
+        line-height: 1.8 !important;
     }
     .node-card-text p:last-child {
         margin-bottom: 0 !important;
@@ -320,7 +320,7 @@ modalStyleTag.innerHTML = `
         font-weight: bold;
         color: #eee;
         text-align: center;
-        line-height: 1.3;
+        line-height: 1.6;
     }
 
     /* Responsive Mobile Overrides */
@@ -483,7 +483,7 @@ function setupNodeModals() {
         <h2>WORK EXPERIENCE</h2>
         <div class="modal-scroll-body">
             <p><strong>SENIOR PROJECT MANAGER, Live-Ops Production</strong> | 04/2026 – Present<br>
-            <em>Gameloft - Global mobile and console game publisher</em></p>
+            <span>Gameloft - Global mobile and console game publisher</em></p>
             <p>• Own the live-ops roadmap for Asphalt Legends, coordinating content and art delivery between Saigon and Barcelona to keep a high-frequency release cadence.</p>
             <p>• Combine Looker telemetry, SensorTower competitor benchmarks and player research to prioritize events and content.</p>
             <p>• Standardized Agile/Jira workflows and cross-studio dependency tracking to remove time-zone handoff bottlenecks.</p>
@@ -493,7 +493,7 @@ function setupNodeModals() {
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>LEAD PROJECT MANAGER | PRODUCER</strong> | 05/2022 – 11/2025<br>
-            <em>Sky Mavis - Vietnam’s Tech Unicorn & Creator of Axie Infinity Games</em></p>
+            <span>Sky Mavis - Vietnam’s Tech Unicorn & Creator of Axie Infinity Games</em></p>
             <p>• Led and mentored 2 associate producers, and aligned discipline leads across Design, Art and Engineering, on a 35-person Homeland team.</p>
             <p>• Shaped core player experience and product vision alongside Design and Executives leads - defining target audiences, value propositions, and go-to-market positioning to balance player engagement with commercial goals. </p>
             <p>• Produced Axie Infinity: Homeland from pre-production through Early Access to a simultaneous global 1.0 launch, then produced 4 major post-launch content updates informed by telemetry; coordinated QA, localization and audio vendors.</p>
@@ -508,11 +508,12 @@ function setupNodeModals() {
             </div>
             <hr style="border: 0; border-top: 1px solid #444; margin: 12px 0;">
             <p><strong>PRODUCER</strong> | 01/2019 – 05/2022<br>
-            <em>Sparx - A Virtuos Studio - AAA co-development studio </em></p>
+            <span>Sparx - A Virtuos Studio - AAA co-development studio </em></p>
             <p>• Managed end-to-end external art pipeline delivery (concept, 3D character, animation, VFX, tech art) for 5+ AAA titles across US, European, and APAC clients, including The Quarry, CORE, XCOM Legends, Clash of Beasts, and Century: Age of Ashes.</p>
             <p>• Directed 30+ artists and leads across up to 3 concurrent AAA projects, forecasting headcount and capacity against overlapping milestones to achieve 90%+ on-time delivery.</p>
             <p>• Led client-facing milestone reviews: defined acceptance criteria, verified builds in Perforce, flagged console memory risks early, and kept 95% of assets within an average of 2 feedback rounds.</p>
             <p>• Built automated tracking pipelines syncing Jira and Notion data to Excel via scripts and APIs to monitor estimated vs. actual asset costs, cutting client feedback wait times and artist idle time.</p>
+            <p>• Achieved "Best Performing Producer Award" of 2021.</p>
             <div class="modal-gallery">
                 <img src="../assets/document/sparx_1.png" alt="Sparx Showcase 1">
                 <img src="../assets/document/sparx_2.png" alt="Sparx Showcase 2">
@@ -532,51 +533,62 @@ function setupNodeModals() {
             <div class="node-card">
                 <img src="../assets/document/homeland.png" alt="Axie Infinity: Homeland" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>AXIE INFINITY: HOMELAND </strong>(2023 - 2025, Unity) | PC (Early Access → 1.0) | Base-building and crafting sim<br>
-                    <em>Lead Producer, pre-production through live support | 35+ internal, plus external QA, localization and audio vendors
-                    | +500k users all time</em></p>
+                    <p><strong>AXIE INFINITY: HOMELAND </strong>(2023 - 2025, Unity) | PC (Early Access → 1.0) | Base-building and crafting sim<br>
+                    <span>• Lead Producer, pre-production through live support | 35+ internal, plus external QA, localization and audio vendors<br>
+                    • 0-to-1 Product Execution: Drove full-lifecycle production from pre-production through Early Access to global 1.0 launch, establishing core gameplay pipelines and production milestones<br>
+                    • Live-Ops & Retention Impact: Produced 4 major post-launch content updates informed by player telemetry, sustaining 20% D7 and 8% D30 retention while reaching a peak of 50K DAU<br>
+                    • <a href="https://hub.skymavis.com/games/homeland" target="_blank" rel="noopener noreferrer">Mavis Hub Link</a> | +500k users all time</span></p>
                 </div>
             </div>
             <div class="node-card">
                 <img src="../assets/document/origins.png" alt="Axie Infinity: Origins" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>AXIE INFINITY: ORIGINS </strong>(2022 - 2023, Unity) | PC, Mobile | Turn-based card battler<br>
-                    <em>Producer, roadmap through 1.0 launch | 25+ internal, 2 co-dev studios (animation, audio)
-                    | +2M users all time</em></p>
+                    <p><strong>AXIE INFINITY: ORIGINS </strong>(2022 - 2023, Unity) | PC, Mobile | Turn-based card battler<br>
+                    <span>• Producer, roadmap through 1.0 launch | 25+ internal, 2 co-dev studios (animation, audio)<br>
+                    • End-to-End Delivery: Drove full-lifecycle production from pre-production through 1.0 launch and live operations up to Official Season 13<br>
+                    • Product & Systems Iteration: Analyzed player feedback and telemetry to identify bottlenecks in early crafting progression; collaborated with Design to rebalance crafting recipes, improving D7 retention by 5%<br>
+                    • End-to-End Delivery: Drove full-lifecycle production from pre-production through 1.0 launch and live operations up to Official Season 13<br>
+                    • <a href="https://apps.apple.com/id/app/axie-infinity-origins/id6445878116" target="_blank" rel="noopener noreferrer">App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.axieinfinity.mystic&hl=en" target="_blank" rel="noopener noreferrer">Google Play</a> | <a href="https://hub.skymavis.com/games/origins?from=%2Fgames&name=Browse+Games&filter=q%253Dorigins" target="_blank" rel="noopener noreferrer">Mavis Hub Link</a> | +2M users all time</span></p>
                 </div>
             </div>
             <div class="node-card">
                 <img src="../assets/document/duetmonsters.png" alt="Duet Monsters" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>DUET MONSTERS </strong>(2024, Unity) | PC, Mobile | Rhythm game, licensed IP<br>
-                    <em>External Development Producer, co-dev production | Co-dev oversight, SOW negotiation with Legal/BizDev
-                    | +200k downloads all plattforms</em></p>
+                    <p><strong>DUET MONSTERS </strong>(2024, Unity) | PC, Mobile | Rhythm game, licensed IP<br>
+                    <span>• External Development Producer, co-dev production | Co-dev oversight, SOW negotiation with Legal/BizDev<br>
+                    • Commercial & IP Governance: Negotiated 6-month SOWs, milestone payment structures, and IP compliance guidelines with Legal/BizDev, reducing external asset budget by 8% while maintaining strict IP quality standards<br>
+                    • <a href="https://blog.axieinfinity.com/p/duet-monsters-is-live" target="_blank" rel="noopener noreferrer">Release Article</a> | +200k downloads all plattforms</span></p>
                 </div>
             </div>
             <div class="node-card">
                 <img src="../assets/document/asphaltlegends.png" alt="Asphalt Legends Unite" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>ASPHALT LEGENDS </strong>(2026 - Present, Unreal) | PS4/PS5, Xbox One/Series, Switch, PC, Mobile | Arcade racing, live service<br>
-                    <em>Producer, live-ops | 20+ internal (Saigon), co-dev with Gameloft Barcelona
-                    | +3M downloads on Steam</em></p>
+                    <p><strong>ASPHALT LEGENDS </strong>(2026 - Present, Unreal) | PS4/PS5, Xbox One/Series, Switch, PC, Mobile | Arcade racing, live service<br>
+                    <span>• Producer, live-ops | 20+ internal (Saigon), co-dev with Gameloft Barcelona<br>
+                    • Cross-Studio Live-Ops Ownership: Own the live-ops content roadmap and release cadence across distributed timezones, aligning Saigon production teams with Barcelona core development to eliminate handoff bottlenecks<br>
+                    • Data-Informed Event Prioritization: Leveraged player analytics and competitor benchmarking to prioritize the Bugatti live event, driving ~20% total player event participation<br>
+                    • +3M downloads on Steam</span></p>
                 </div>
             </div>
             <div class="node-card">
                 <img src="../assets/document/thequarry.png" alt="The Quarry" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>THE QUARRY </strong>(2021 - 2022, Supermassive Games, Unreal) | PS4/PS5, Xbox One/Series, PC | AAA narrative horror<br>
-                    <em>Producer (AAA co-dev), art pipeline delivery | 10-person Tech Art and 3D Character team
-                    | +1M downloads</em></p>
+                    <p><strong>THE QUARRY </strong>(2021 - 2022, Supermassive Games, Unreal) | PS4/PS5, Xbox One/Series, PC | AAA narrative horror<br>
+                    <span>• Producer (AAA co-dev), art pipeline delivery | 10-person Tech Art and 3D Character team<br>
+                    • AAA Pipeline & Risk Mitigation: Directed end-to-end 3D character and tech art delivery; established strict Perforce verification and early console memory profiling that kept 95% of assets within 2 feedback rounds<br>
+                    • +1M downloads<br>
+                    • <a href="https://www.youtube.com/watch?v=d8S-DIPVSVc&t=1374s" target="_blank" rel="noopener noreferrer">Credit Scene</a></span></p>
                 </div>
             </div>
             <div class="node-card" style="display: block;">
                 <div class="node-card-text" style="margin-bottom: 8px;">
-                    <p style="margin: 0 !important;">• <strong>Additional AAA co-dev titles</strong> (Sparx, art pipeline delivery):</p>
+                    <p style="margin: 0 !important;"><strong>Additional AAA co-dev titles</strong> (Sparx, art pipeline delivery):</p>
                 </div>
                 <div class="game-grid-4col">
                     <div class="game-item">
                         <img src="../assets/document/core.png" alt="CORE by Manticore Games">
-                        <span>CORE (Manticore Games, UGC game platform)</span>
+                        <span>CORE (Manticore Games, UGC game platform)<br>
+                        <a href="https://www.artstation.com/artwork/zO21QQ" target="_blank" rel="noopener noreferrer">Artstation Showcase</a></span>
                     </div>
                     <div class="game-item">
                         <img src="../assets/document/xcomlegends.png" alt="XCOM LEGENDS by Chimera Games">
@@ -584,18 +596,20 @@ function setupNodeModals() {
                     </div>
                     <div class="game-item">
                         <img src="../assets/document/clashofbeasts.png" alt="CLASH OF BEAST by Ubisoft">
-                        <span>Clash of Beasts (Ubisoft) | +500k downloads on Google Play</span>
+                        <span>Clash of Beasts (Ubisoft)<br>
+                        <a href="https://play.google.com/store/apps/details?id=com.ubisoft.clash.of.war.strategy.rpg.pvp.raid&hl=vi" target="_blank" rel="noopener noreferrer">Google Play</a> | +500k downloads</span>
                     </div>
                     <div class="game-item">
                         <img src="../assets/document/century.png" alt="CENTURY: AGE OF ASHES by Playwing LTD">
-                        <span>Century: Age of Ashes (Playwing, multiplayer dragon combat) | +500K downloads all platforms</span>
+                        <span>Century: Age of Ashes (Playwing, multiplayer dragon combat)<br>
+                        +500K downloads all platforms</span>
                     </div>
                 </div>
             </div>
             <div class="node-card">
                 <img src="../assets/document/greenbird_0b.png" alt="Unannounced Indie Project" class="node-card-img">
                 <div class="node-card-text">
-                    <p>• <strong>Unannounced roguelite RPG</strong> (2026–Present, pre-production)</p>
+                    <p><strong>Unannounced roguelite RPG</strong> (2026–Present, pre-production)</p>
                 </div>
             </div>
         </div>
