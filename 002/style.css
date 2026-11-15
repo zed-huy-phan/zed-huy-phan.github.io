@@ -46,12 +46,12 @@ body, html {
     image-rendering: pixelated;
     z-index: 10;
     max-width: 960px;
-    min-height: 440px; /* Expands height vertically */
-    padding: 65px 40px; /* ~15% more vertical padding up & down */
-    overflow: hidden; /* Ensures speech bubble stays safely inside frame bounds */
+    min-height: 440px;
+    padding: 65px 40px;
+    overflow: hidden;
 }
 
-/* --- HOME AVATAR & SPEECH BUBBLE (+20% Bigger & Bound to Box) --- */
+/* --- HOME AVATAR & SPEECH BUBBLE (Desktop & Mobile Layouts) --- */
 #home-avatar-wrapper {
     position: absolute;
     bottom: 0;
@@ -63,7 +63,7 @@ body, html {
 }
 
 #home-avatar-img {
-    width: 138px; /* 115px * 1.2 = 138px */
+    width: 138px;
     height: auto;
     display: block;
     image-rendering: pixelated;
@@ -73,22 +73,22 @@ body, html {
 #home-speech-bubble {
     position: absolute;
     bottom: 105%;
-    right: 5px; /* Anchored to right boundary so it stays fully inside container */
-    width: 294px; /* 245px * 1.2 = 294px */
-    min-height: 77px; /* 64px * 1.2 = ~77px */
+    right: 5px;
+    width: 294px;
+    min-height: 77px;
     background-color: rgba(0, 0, 0, 0.92);
     border: 3px solid #ffffff;
     padding: 12px 14px;
     box-sizing: border-box;
     text-align: left;
-    font-size: 9.6px; /* 8px * 1.2 = 9.6px */
+    font-size: 9.6px;
     line-height: 1.65;
     color: #ffffff;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.7);
     z-index: 14;
 }
 
-/* Pixel speech bubble tail pointing toward the avatar on bottom-right */
+/* Pixel speech bubble tail pointing toward the avatar on bottom-right (Desktop) */
 #home-speech-bubble::before {
     content: "";
     position: absolute;
@@ -123,32 +123,43 @@ body, html {
     50%, 100% { opacity: 0; }
 }
 
+/* Mobile View: Reposition speech bubble to the bottom-left of the avatar so it doesn't cover any buttons */
 @media (max-width: 820px) {
     #home-avatar-wrapper {
-        right: 10px;
+        right: 15px;
+        bottom: 10px;
     }
     #home-avatar-img {
-        width: 86px; /* 72px * 1.2 */
+        width: 86px;
     }
     #home-speech-bubble {
+        position: absolute;
+        bottom: 5px;
+        right: 96px; /* Sits to the left of the avatar */
         left: auto;
-        right: 0;
-        bottom: 105%;
-        width: 228px; /* 190px * 1.2 */
-        font-size: 8.4px; /* 7px * 1.2 */
-        padding: 8px 10px;
+        width: 175px;
+        min-height: 55px;
+        font-size: 7.5px;
+        padding: 7px 9px;
     }
+    /* Point the speech bubble tail to the right toward the avatar */
     #home-speech-bubble::before {
-        right: 24px;
+        bottom: 14px;
+        right: -10px;
         left: auto;
-        border-right: 10px solid transparent;
-        border-left: 10px solid transparent;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #ffffff;
+        border-right: none;
     }
     #home-speech-bubble::after {
-        right: 27px;
+        bottom: 16px;
+        right: -7px;
         left: auto;
-        border-right: 7px solid transparent;
-        border-left: 7px solid transparent;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 7px solid rgba(0, 0, 0, 0.92);
+        border-right: none;
     }
 }
 
